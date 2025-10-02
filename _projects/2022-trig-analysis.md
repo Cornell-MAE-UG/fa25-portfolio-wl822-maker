@@ -1,25 +1,19 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
+title: Lifting a Weight
+description: We were tasked with lifting a weight to the maximal height
 technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+image: /assets/images/Statics Design Project 1-1.png
 ---
 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
+As part of a class project we were given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (your choice), 3 pin supports of which two need to be mounted on the ground and a linear
+actuator (pick from this online catalog, use max force values only) in order to design a
+frame/mechanism to lift the maximum possible weight to the highest possible height.
+Assume all the supports and bar/actuator are rigid.
 
 This is how I solved the problem:
 
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The most complicated part of this was choosing a linear actuator that (1) fit the specifications and (2) could exert the largest amount of force. I ended up choosing the IMA 22 since it has a very good force/stroke length that the other actuators did not provide. The organization of the system is having the linear actuator pushing straight up 100 centimeters away from the pivot point.The limitations only allow a 150 cm length frame so it was important to me to not waste space. Doing a moment calculation, my system can lift 966.7 N. 
 
 
