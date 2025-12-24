@@ -4,6 +4,8 @@ title: Lifting a Weight
 description: We were tasked with lifting a weight to the maximal height and finding the corresponding deflection
 technologies: [MATLAB, python]
 image: /assets/images/Statics portfolio-1.png
+image: /assets/images/Statics portfolio-2.png
+
 ---
 
 
