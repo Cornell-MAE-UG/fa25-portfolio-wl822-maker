@@ -21,7 +21,7 @@ After finding how much my system can lift it would be helpful to find how much o
 
 If we use structural steel for the beam, we can find the necessary I value. The most material efficient shape for that I-value is the Wide flange 410 x 46.1 flange. 
 
-<div style="display:flex; gap:20px;">
+<div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
   <img src="/assets/images/Statics-portfolio-1.png" width="45%">
   <img src="/assets/images/Statics-portfolio-2.png" width="45%">
 </div>
