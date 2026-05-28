@@ -3,7 +3,7 @@ layout: project
 title: Lifting a Weight
 description: We were tasked with lifting a weight to the maximal height and finding the corresponding deflection
 technologies: [MATLAB, python]
-image: /assets/images/Statics portfolio-1.png
+image: /assets/images/Statics-portfolio-1.png
 
 ---
 
@@ -20,3 +20,8 @@ The most complicated part of this was choosing a linear actuator that (1) fit th
 After finding how much my system can lift it would be helpful to find how much our beam deflects because of the linear actuator. We can set boundary conditions and take multiple cuts to find the moment. Knowing the relationship between moment and EI* the second derivative of the deflection (y), we can find the equations of the deflection of the beam. After integrating and solving for the constants of integration, we can impose that we want less than 2% of 150 cm, 3 cm, deflection. 
 
 If we use structural steel for the beam, we can find the necessary I value. The most material efficient shape for that I-value is the Wide flange 410 x 46.1 flange. 
+
+<div style="display:flex; gap:20px;">
+  <img src="/assets/images/Statics-portfolio-1.png" width="45%">
+  <img src="/assets/images/Statics-portfolio-2.png" width="45%">
+</div>
