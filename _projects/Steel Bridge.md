@@ -18,6 +18,10 @@ Unlike other teams, our bridges are made entirely in-house. Every piece of steel
 
 Fabrication was a significant component of the project and provided valuable hands-on experience with steel construction techniques. After finalizing the design, individual members were cut, prepared, and organized for assembly. I helped mill truss members and connection plates to size. Next was the welding process, requiring careful attention to both accuracy and quality control. Components were first tack welded to hold them in place and verify fit-up before final welds were applied. Welds were completed according to established fabrication procedures, with particular attention given to minimizing distortion and maintaining member alignment. Following welding, completed assemblies were inspected, cleaned, and prepared for final bridge assembly. Through this process, I gained practical experience in fabrication planning, welding techniques, and quality assurance practices commonly used in structural steel construction.
 
+<div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+  <img src="{{ site.baseurl }}/assets/images/SteelBridge-weld.jpg" width="75%">
+</div>
+
 ### Competition
 
 The culmination of the project was the regional steel bridge competition, where teams are evaluated on multiple performance categories including construction speed, structural stiffness, cost estimation, and overall efficiency. One of the most exciting aspects of the competition is the timed bridge assembly event, where teams must rapidly construct their bridge using only the designated team members and approved procedures.
@@ -31,13 +35,17 @@ At competition, our team successfully assembled the bridge in 26 minutes, includ
 
 The project provided a unique opportunity to apply classroom concepts to a real engineering challenge while developing practical skills in structural analysis, fabrication, project management, and teamwork. Working alongside students from multiple engineering disciplines reinforced the importance of communication and coordination in successfully delivering a complex structural system.
 
+<div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
+  <img src="{{ site.baseurl }}/assets/images/SteelBridge-loadtest.JPG" width="75%">
+</div>
+
 ### Freshman Design Project
 
 During any member's first year, they go through First-year Design Project (FDP). We were tasked to design a bridge for this year's game. Leading our group, we ultimately decided to make a bridge that had a different type of trussing (refer to image below). We first modeled our bridge on STAAD to get our approximate deflection in the different load cases. After finalizing the design, we learned how to CAD each member on Fusion360. We ran FEA analysis on members to see stress concentrations on connection plates/beams. 
 
 
 <div style="display:flex; gap:20px; flex-wrap:wrap; justify-content:center;">
-  <img src="{{ site.baseurl }}/assets/images/SteelBridge-FDPSTAAD.png" width="45%">
-  <img src="{{ site.baseurl }}/assets/images/SteelBridge-loadtest.JPG" width="45%">
-  <img src="{{ site.baseurl }}/assets/images/SteelBridge-weld.jpg" width="45%">
+  <img src="{{ site.baseurl }}/assets/images/SteelBridge-FDPSTAAD.png" width="65%">
+  <img src="{{ site.baseurl }}/assets/images/SteelBridge-FDPFusion.png" width="65%">
+  <img src="{{ site.baseurl }}/assets/images/SteelBridge-FDPanalysis.png" width="65%">
 </div>
